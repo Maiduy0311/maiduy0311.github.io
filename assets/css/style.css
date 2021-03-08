@@ -473,7 +473,7 @@ img {
 .project__container {
     position: relative;
     padding: 1.5rem 1rem;
-    background: url(/make_cv2/assets/img/b4.jpg) top center/ cover no-repeat;
+    background: var(--first-color);
     color: var(--first-color-lighten);
     border-radius: 0.5rem;
     text-align: center;
@@ -663,7 +663,7 @@ img {
 
 .footer {
     position: relative;
-    background: url(/make_cv2/assets/img/bg5.jpg)top right/ cover no-repeat;
+    background: var(--first-color);
     color: var(--first-color-lighten);
     text-align: center;
     z-index: 0;
