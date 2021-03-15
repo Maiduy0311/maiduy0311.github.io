@@ -860,5 +860,8 @@ img {
         .qualification__container {
             column-gap: 6rem;
         }
+        .qualification__container {
+            grid-template-columns: repeat(3, 1fr);
+        }
     }
 }
