@@ -551,7 +551,7 @@ img {
 .miniproject__data p {
     margin: 0;
     padding: 0;
-    height: 50px;
+    height: 80px;
     overflow: hidden;
     font-size: 17px;
     line-height: 25px;
@@ -758,10 +758,13 @@ img {
 
 @media screen and (min-width:576px) {
     .qualification__container,
-    .service__container,
     .contact__content,
     .miniproject__container,
     .about2 {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .service__container,
+    .contact__content {
         grid-template-columns: repeat(2, 1fr);
     }
     .content__about {
